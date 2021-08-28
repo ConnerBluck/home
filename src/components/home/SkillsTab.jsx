@@ -4,16 +4,19 @@ import SkillsBar from "./SkillsBar";
 
 function SkillsSection({ skills, isScrolled }) {
   return (
-    <>
+    <ul>
       {skills.map((skill, index) => (
-        <SkillsBar
-          key={`${skill}-${index}`}
-          skill={skill.name}
-          value={skill.value}
-          isScrolled={isScrolled}
-        />
+        <li className="lead mb-1 mt-2">
+          {skill.name}
+        </li>
+        // <SkillsBar
+        //   key={`${skill}-${index}`}
+        //   skill={skill.name}
+        //   value={skill.value}
+        //   isScrolled={isScrolled}
+        // />
       ))}
-    </>
+    </ul>
   );
 }
 

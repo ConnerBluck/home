@@ -8,7 +8,8 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  projects
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -68,6 +69,7 @@ const Home = React.forwardRef((props, ref) => {
           heading={skills.heading}
           hardSkills={skills.hardSkills}
           softSkills={skills.softSkills}
+          coursework={skills.coursework}
         />
       )}
       
