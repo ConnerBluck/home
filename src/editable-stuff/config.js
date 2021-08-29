@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../assets/img/general/me.jpg"),
   imageSize: 375,
   message:
-    "My name is Conner Bluck. I am motivated student currently pursuing Bachelor of Science in Computer Science at Georgia Institute of Technology. As a passionate learner, I am always looking for new opportunities to learn and apply new skills. As a passionate developer, my goal is to further develop my skills and use them to solve problems.",
+    "My name is Conner Bluck. I am a motivated student currently pursuing a Bachelor of Science in Computer Science at Georgia Institute of Technology. As a passionate learner, I am always looking for new opportunities to learn and apply new skills. As a passionate developer, my goal is to further develop my skills and use them to solve problems.",
   resume: require("../assets/img/general/resume.pdf"),
 };
 
